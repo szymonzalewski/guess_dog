@@ -66,11 +66,11 @@ const fetcher = () => {
     .then((data) => {
       img.setAttribute("src", data.message);
       btn2.onclick = () => {
-        const wprowadzonyTekst = input.value.trim().toLowerCase();
-        const wyciagnijZAdresu = extractBreedFromURL(data.message)
+        const inputTekst = input.value.trim().toLowerCase();
+        const extractBreed = extractBreedFromURL(data.message)
           .replace(/-/g, " ")
           .toLowerCase();
-        if (wyciagnijZAdresu && wyciagnijZAdresu === wprowadzonyTekst) {
+        if (extractBreed && extractBreed === inputTekst) {
           document.getElementById("success").innerHTML = "Brawo";
           resultRemover();
           fetcher();
