@@ -1,0 +1,19 @@
+.textProperties {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgProperties {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formProperties {
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+}
+.btn2Properties {
+  text-align: center;
+  margin-top: 10px;
+}

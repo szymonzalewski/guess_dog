@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body style="background-color: beige">
+    <div class="textProperties" id="welkomes">
+      <h1>WITAJ W GRZE</h1>
+      <h2>ZGADNIJ RASĘ</h2>
+    </div>
+    <div class="textProperties" id="myDiv3">
+      <h1>
+        Naciśnij na zdjęcie aby <br />
+        rozpocząć
+      </h1>
+    </div>
+    <div class="textProperties">
+      <h2 id="success" style="color: green"></h2>
+      <h2 id="wrong" style="color: red"></h2>
+    </div>
+    <div class="textProperties">
+      <button>
+        <img
+          width="400px"
+          height="400px"
+          src=""
+          alt="Dog picture"
+          class="imgProperties" />
+      </button>
+    </div>
+
+    <div id="myDiv">
+      <form style="text-align: center">
+        <input
+          class="formProperties"
+          type="text"
+          id="userInput"
+          placeholder="Wprowadź rasę psa..."
+          onfocus="this.value=''" />
+      </form>
+    </div>
+    <div class="btn2Properties" id="myDiv2">
+      <button id="drugi" type="button">ZATWIERDŹ</button>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
